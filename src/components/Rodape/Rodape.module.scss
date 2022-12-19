@@ -1,0 +1,28 @@
+@import "../../styles/variaveis";
+
+main.rodape {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    justify-content: space-between;
+    background-color: $azul-rodape;
+    height: 40px;
+}
+
+.icones {
+    a{
+        margin: 10px;
+
+        img{
+            margin-top: 8px;
+        }
+    }
+}
+
+h1{
+    margin-top: 8px;
+    color: $cor-do-texto;
+    font-size: 1.3rem;
+    font-family: "GandhiSansRegular";
+}
