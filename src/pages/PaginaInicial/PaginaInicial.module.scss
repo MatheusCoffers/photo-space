@@ -33,8 +33,10 @@ main {
   }
 }
 
-.rodape{
-  position: fixed;
-  bottom:0;
-  width: 98%;
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 17%;
+  margin-top: 1rem;
 }

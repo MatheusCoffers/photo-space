@@ -4,16 +4,15 @@ main.rodape {
     display: flex;
     width: 100%;
     margin: 0;
-    padding: 0 20px;
+    padding: 0;
     justify-content: space-between;
     background-color: $azul-rodape;
-    height: 40px;
+    height:40px;
 }
 
 .icones {
     a{
         margin: 10px;
-
         img{
             margin-top: 8px;
         }
@@ -21,6 +20,7 @@ main.rodape {
 }
 
 h1{
+    margin-right: 20px;
     margin-top: 8px;
     color: $cor-do-texto;
     font-size: 1.3rem;
